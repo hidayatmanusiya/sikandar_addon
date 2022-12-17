@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sikandar_addon *.css
+recursive-include sikandar_addon *.csv
+recursive-include sikandar_addon *.html
+recursive-include sikandar_addon *.ico
+recursive-include sikandar_addon *.js
+recursive-include sikandar_addon *.json
+recursive-include sikandar_addon *.md
+recursive-include sikandar_addon *.png
+recursive-include sikandar_addon *.py
+recursive-include sikandar_addon *.svg
+recursive-include sikandar_addon *.txt
+recursive-exclude sikandar_addon *.pyc
